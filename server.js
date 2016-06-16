@@ -5,6 +5,6 @@ const
 
 app
 .use(express.static(__dirname))
-.get('/cv', (req, res) => res.sendFile(__dirname))
+.get('/cv', (req, res) => res.sendFile(__dirname) + '/dist')
 .use((req, res) => res.sendFile(__dirname + '/404/index.html'))
 .listen(port, () => console.log(`wikipedia-viewer listening on ${port}`))
