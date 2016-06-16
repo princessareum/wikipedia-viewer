@@ -21,6 +21,8 @@
     "webpack": "^1.13.1"
   },
   "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.13.4",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "superagent": "^2.0.0",
